@@ -1,9 +1,10 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import ContactSection from "../sections/ContactSection";
+// import ContactSection from "../sections/ContactSection";
 import IntroSection from "../sections/IntroSection";
 import ProjectSection from "../sections/ProjectSection";
 import SkillSection from "../sections/SkillSection";
+import TestimonialSection from "../sections/TestimonialSection";
 // import { trpc } from "../utils/trpc";
 
 const Home: NextPage = () => {
@@ -19,10 +20,15 @@ const Home: NextPage = () => {
         <IntroSection />
         <SkillSection />
         <ProjectSection />
-        <ContactSection />
+        <TestimonialSection />
+        {/* <ContactSection /> */}
       </main>
     </>
   );
+};
+
+Home.getInitialProps = async ({}) => {
+  return {};
 };
 
 export default Home;
