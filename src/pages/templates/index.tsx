@@ -1,8 +1,6 @@
 import React from "react";
 
-type Props = {};
-
-function index({}: Props) {
+function index() {
   return <div className="h-full w-full"></div>;
 }
 
