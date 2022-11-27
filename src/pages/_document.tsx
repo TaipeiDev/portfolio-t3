@@ -6,7 +6,7 @@ export default function Document() {
       <Head>        
         <meta
           name="title"
-          content="Marcin@taipei.dev: My Developer Portfolio"
+          content="Marcin | My Developer Portfolio"
         />
         <meta
           name="description"
@@ -37,11 +37,11 @@ export default function Document() {
 
         <meta
           property="og:title"
-          content="Marcin@taipei.dev: My Developer Portfolio"
+          content="Marcin | My Developer Portfolio"
         />
         <meta
           property="og:site_name"
-          content="Marcin@taipei.dev: My Developer Portfolio"
+          content="Marcin | My Developer Portfolio"
         />
         <meta property="og:url" content="https://marcincebula.vercel.app/" />
         <meta
@@ -70,7 +70,7 @@ export default function Document() {
         />
         <meta
           name="twitter:title"
-          content="Marcin@taipei.dev: My Developer Portfolio"
+          content="Marcin | My Developer Portfolio"
         />
         <meta
           name="twitter:image"
