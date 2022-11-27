@@ -8,7 +8,7 @@ const content = {
     </span>
   ),
   description:
-    "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequat duis",
+    "It was a busy year. Lots of learning, lost of building and lost of real world lessons. Here are some of my stats for 2022...",
   stats: [
     {
       number: 11,

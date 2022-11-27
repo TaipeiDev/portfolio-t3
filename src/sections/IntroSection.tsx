@@ -25,8 +25,8 @@ const content = {
   ),
   description: (
     <div className="font-light">
-      <span>{`I've`}</span> been programing and build apps for{" "}
-      <span className="font-semibold  text-pink-500">3 years</span>. I enjoying
+      <span>{`I've`}</span> been <span className="font-semibold text-purple-500">coding</span>, <span className="font-semibold text-purple-500">designing </span> and  <span className="font-semibold text-purple-500">build </span>products for{" "}
+      <span className="font-semibold">over a decade</span>. I enjoying
       working in
       <span className="px-1  font-semibold text-pink-500">
         Typescript based technologies
