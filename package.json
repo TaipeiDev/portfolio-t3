@@ -15,11 +15,11 @@
     "@trpc/react-query": "^10.0.0",
     "@trpc/server": "^10.0.0",
     "daisyui": "^2.42.1",
-    "lottie-colorify": "^0.8.0",
     "next": "13.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-lottie": "^1.2.3",
+    "lottie-colorify": "^0.8.0",
     "superjson": "1.9.1",
     "zod": "^3.18.0"
   },
@@ -34,6 +34,7 @@
     "eslint-config-next": "13.0.2",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
+    "@types/react-lottie": "^1.2.6",
     "prettier-plugin-tailwindcss": "^0.1.13",
     "tailwindcss": "^3.2.0",
     "typescript": "^4.8.4"
