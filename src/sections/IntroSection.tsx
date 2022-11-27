@@ -37,15 +37,15 @@ const content = {
 
 export function IntroSection() {
   return (
-    <section className="container mx-auto h-screen w-full max-w-7xl px-4 md:px-0">
+    <section className="container mx-auto h-screen w-full max-w-5xl px-4 sm:px-8 font-sans">
       <div className="grid h-full grid-cols-2 items-center justify-center text-center md:text-start">
         {/* Profile Description */}
         <div className="order-2 col-span-2 space-y-5 md:order-1 md:col-span-1">
-          <h1 className="text-3xl font-extrabold tracking-tight text-slate-800 sm:text-[5rem] md:text-5xl">
+          <h1 className="text-4xl sm:text-4xl md:text-3xl lg:text-3xl font-extrabold tracking-tight text-slate-800">
             {content.header}
           </h1>
 
-          <div className="text-lg text-slate-500 md:text-2xl">
+          <div className="text-lg text-slate-500 lg:text-2xl">
             {content.description}
           </div>
           {content.cta && (
@@ -54,7 +54,7 @@ export function IntroSection() {
                 rel="noopener noreferrer"
                 href={content.cta.url}
                 aria-label="GitHub"
-                className="w-full rounded-md bg-purple-600 py-4 text-2xl text-purple-50 hover:bg-purple-700 md:w-auto md:px-12 md:py-6"
+                className="w-full rounded-md bg-purple-600 py-4 text-2xl text-purple-50 hover:bg-purple-700 md:w-auto md:px-12 md:py-4 lg:py-5"
               >
                 {content.cta.label}
               </a>
