@@ -13,5 +13,6 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  installCommand: "npm install --legacy-peer-dep",
 };
 export default config;
