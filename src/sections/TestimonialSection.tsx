@@ -1,6 +1,6 @@
 import React from "react";
 
-function TestimonialSection() {
+export function TestimonialSection() {
   return (
     <section className="bg-gray-100 py-10 sm:py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

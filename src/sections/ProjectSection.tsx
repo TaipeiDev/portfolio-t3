@@ -1,12 +1,21 @@
 import React from "react";
 
-function ProjectSection() {
+const content = {
+  title: `Project's I built`,
+  description: (
+    <div className="">
+    
+    </div>
+  )
+};
+
+export function ProjectSection() {
   return (
     <section className="bg-gray-50 py-10 sm:py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-            Integrate with apps
+            {content.title}
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-gray-600">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet

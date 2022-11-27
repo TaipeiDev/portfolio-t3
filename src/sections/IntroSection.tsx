@@ -4,7 +4,7 @@ import Image from "next/image";
 import ProfilePhoto from "./assets/ProfilePhoto.png";
 
 const content = {
-  name: "Dan Abramov",
+  name: "Marcin @Taipei.dev",
   profilePhoto: ProfilePhoto,
   title: "Full Stack Developer",
   cta: {
@@ -35,7 +35,7 @@ const content = {
   ),
 };
 
-function IntroSection() {
+export function IntroSection() {
   return (
     <section className="container mx-auto h-screen w-full max-w-7xl px-4 md:px-0">
       <div className="grid h-full grid-cols-2 items-center justify-center text-center md:text-start">
