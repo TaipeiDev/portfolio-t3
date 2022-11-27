@@ -37,11 +37,11 @@ const content = {
 
 export function IntroSection() {
   return (
-    <section className="container mx-auto h-screen w-full max-w-5xl px-4 sm:px-8 font-sans">
+    <section className="container mx-auto h-screen w-full max-w-5xl px-4 sm:px-8 font-sans pb-24">
       <div className="grid h-full grid-cols-2 items-center justify-center text-center md:text-start">
         {/* Profile Description */}
         <div className="order-2 col-span-2 space-y-5 md:order-1 md:col-span-1">
-          <h1 className="text-4xl sm:text-4xl md:text-3xl lg:text-3xl font-extrabold tracking-tight text-slate-800">
+          <h1 className="text-4xl sm:text-4xl md:text-3xl lg:text-4xl xl:text-4xl font-extrabold tracking-tight text-slate-800">
             {content.header}
           </h1>
 

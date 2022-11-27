@@ -4,13 +4,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['ui-sans-serif', 'system-ui'],
-        'serif': ['ui-serif', 'Georgia'],
-        'mono': ['Source Code Pro', 'monospace'],
-        'display': ['ui-sans-serif', 'system-ui'],
-        'body': ['Source Code Pro', 'monospace'],
+        sans: ["ui-sans-serif", "system-ui"],
+        serif: ["ui-serif", "Georgia"],
+        mono: ["Source Code Pro", "monospace"],
+        display: ["ui-sans-serif", "system-ui"],
+        body: ["Source Code Pro", "monospace"],
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
