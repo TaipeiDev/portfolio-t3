@@ -6,15 +6,15 @@ export default function Document() {
       <Head>        
         <meta
           name="title"
-          content="Free Software Engineering Bootcamp in Taipei, Taiwan"
+          content="Marcin@taipei.dev: My Developer Portfolio"
         />
         <meta
           name="description"
-          content="Join our free Code & Design events and learn Javascript, Typescript, ReactJS, NextJS, Figma, HTML, CSS and more every Wednesday here in Taipei, Taiwan"
+          content="I write awesome code! I've been coding, designing and build products for over a decade. I enjoying working in Typescript based technologies sand contribute to Open Source on Github"
         />
         <meta
           name="keywords"
-          content="bootcamp, taipei, startuper, figma, frontend, backend, startup, free, free bootcamp, learn to code, programming tutorials, learn programming, web development, learn web development, typescript, nextjs, vue, vuejs, programming, dev, ux ui, react, react js, ruby, aws academy, codeacademy, freecodecamp, javascript, c++, c#, js, coding, hello world, application programming interface, js node"
+          content="Programming, Code, Design, NextJS, ReactJS, Developer, Portfolio, Resume, NodeJS, Taiwan, Taipei, Taipei.dev"
         />
         <meta
           name="author"
@@ -37,21 +37,21 @@ export default function Document() {
 
         <meta
           property="og:title"
-          content="Free Software Engineering Bootcamp in Taipei, Taiwan"
+          content="Marcin@taipei.dev: My Developer Portfolio"
         />
         <meta
           property="og:site_name"
-          content="Taipei.dev | Free Software Engineering Bootcamp in Taipei, Taiwan"
+          content="Marcin@taipei.dev: My Developer Portfolio"
         />
-        <meta property="og:url" content="https://taipei.dev/" />
+        <meta property="og:url" content="https://marcincebula.vercel.app/" />
         <meta
           property="og:description"
-          content="Join our free Code & Design events and learn Javascript, Typescript, ReactJS, NextJS, Figma, HTML, CSS and more every Wednesday here in Taipei, Taiwan"
+          content="I write awesome code! I've been coding, designing and build products for over a decade. I enjoying working in Typescript based technologies sand contribute to Open Source on Github"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://taipei.dev/taipei-dev-og-photo-size-best.jpg"
+          content="https://marcincebula.vercel.app/SEOPhoto.png"
         />
 
         <meta property="og:locale" content="en_US" />
@@ -66,15 +66,15 @@ export default function Document() {
         <meta name="twitter:site" content="https://taipei.dev/" />
         <meta
           name="twitter:description"
-          content="Join our free Code & Design events and learn Javascript, Typescript, ReactJS, NextJS, Figma, HTML, CSS and more each Wednesday here in Taipei, Taiwan"
+          content="I write awesome code! I've been coding, designing and build products for over a decade. I enjoying working in Typescript based technologies sand contribute to Open Source on Github"
         />
         <meta
           name="twitter:title"
-          content="Free Software Engineering Bootcamp in Taipei, Taiwan"
+          content="Marcin@taipei.dev: My Developer Portfolio"
         />
         <meta
           name="twitter:image"
-          content="https://taipei.dev/taipei-dev-og-photo-size-best.jpg"
+          content="https://marcincebula.vercel.app/SEOPhoto.png"
         />
 
         {/* Swap Default Font Here */}
