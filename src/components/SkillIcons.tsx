@@ -1,3 +1,14 @@
+import Image from "next/image";
+import t3StackPNG from "./assets/skills/t3-stack.png";
+
+export const T3StackIcon = () => (
+  <Image
+    src={t3StackPNG}
+    alt="T3Stack Icon"
+    className="h-full w-full object-cover object-center"
+  />
+);
+
 export const TypeScriptIcon = () => (
   <svg viewBox="0 0 128 128">
     <path

@@ -6,6 +6,7 @@ import {
   NextJSSkill,
   NodeJSSkill,
   ReactJSSkill,
+  T3StackSkill,
   TailwindSkill,
   TypeScriptSkill,
 } from "../components/Skills";
@@ -32,12 +33,17 @@ const content = {
     nextJS: {
       love: 4.5,
       skill: 4.5,
-      description: null,
+      description: `NextJS Made me fall in love with programming for the second time! I've been using it on every project ever since!`,
     },
     reactJS: {
       love: 4.5,
       skill: 4.5,
-      description: `Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit`,
+      description: null,
+    },
+    t3Stack: {
+      love: 5,
+      skill: 5,
+      description: "The only way to get started on a new project project in 2022!",
     },
     nodeJS: {
       love: 3.5,
@@ -91,10 +97,12 @@ export function SkillSection() {
           )}
 
           {content.skills.nextJS && <NextJSSkill {...content.skills.nextJS} />}
+          {content.skills.t3Stack && <T3StackSkill {...content.skills.t3Stack} />}
 
           {content.skills.reactJS && (
             <ReactJSSkill {...content.skills.reactJS} />
           )}
+
 
           {content.skills.nodeJS && <NodeJSSkill {...content.skills.nodeJS} />}
 

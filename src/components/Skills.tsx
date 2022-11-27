@@ -5,6 +5,7 @@ import {
   NextJSIcon,
   NodeJSIcon,
   ReactJSIcon,
+  T3StackIcon,
   TailwindIcon,
   TypeScriptIcon,
 } from "./SkillIcons";
@@ -16,6 +17,9 @@ export type SkillProps = {
   description?: string | null;
 };
 
+export const T3StackSkill = (props: SkillProps) => (
+  <SkillWidget {...props} title="T3 Stack" icon={<T3StackIcon />} />
+);
 export const TypeScriptSkill = (props: SkillProps) => (
   <SkillWidget {...props} title="Typescript" icon={<TypeScriptIcon />} />
 );
