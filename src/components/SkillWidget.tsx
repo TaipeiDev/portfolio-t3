@@ -20,7 +20,7 @@ export const SkillWidget = ({
     </div>
     <div className="py-2">
       <div className="flex items-center justify-center">
-        <div className="h-24 w-24">{icon}</div>
+        <div className="h-24 w-24 p-2 md:p-0">{icon}</div>
         <div className="flex flex-col items-center justify-center p-4 text-center">
           <div className="grid grid-cols-2 items-center justify-center gap-y-2">
             <h3 className="px-2 text-left text-xl  text-slate-500">Love</h3>

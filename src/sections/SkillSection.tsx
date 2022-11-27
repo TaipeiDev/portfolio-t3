@@ -70,7 +70,7 @@ const content = {
 
 export function SkillSection() {
   return (
-    <section className="bg-white py-10 sm:py-16 lg:py-24">
+    <section id="skills" className="bg-white py-10 sm:py-16 lg:py-24">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-semibold text-gray-900">

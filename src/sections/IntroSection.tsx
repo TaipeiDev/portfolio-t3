@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import ProfilePhoto from "./assets/ProfilePhoto.png";
+import { ScrollDownIcon } from "../components/AnimatedIcons";
 
 const content = {
   name: "Marcin @Taipei.dev",
@@ -37,7 +38,7 @@ const content = {
 
 export function IntroSection() {
   return (
-    <section className="container mx-auto h-screen w-full max-w-5xl px-4 sm:px-8 font-sans pb-24">
+    <section className="container mx-auto h-screen w-full max-w-5xl px-4 sm:px-8 font-sans pb-10 md:pb-20">
       <div className="grid h-full grid-cols-2 items-center justify-center text-center md:text-start">
         {/* Profile Description */}
         <div className="order-2 col-span-2 space-y-5 md:order-1 md:col-span-1">
@@ -98,6 +99,14 @@ export function IntroSection() {
           </div>
         </div>
       </div>
+      <div className="w-full bottom-2">
+        <a href="#skills">
+          <div className="h-12 rotate-90">
+            <ScrollDownIcon />
+          </div>
+        </a>
+      </div>
+
     </section>
   );
 }

@@ -2,7 +2,11 @@ import { Stats } from "fs";
 import React from "react";
 
 const content = {
-  title: `My 2022 Stats`,
+  title: (
+    <span>
+      My <span className="text-purple-500">2022</span> Stats
+    </span>
+  ),
   description:
     "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequat duis",
   stats: [
@@ -12,14 +16,14 @@ const content = {
       description: "Projects I built or helped on",
     },
     {
-      number: '1300+',
+      number: "1300+",
       label: "Deploys",
       description: "Deployed to Production",
     },
     {
       number: 3,
       label: "Micro-SasS",
-      description: "Created Successful Commercial Products",
+      description: "Created 3 Commercial Products",
     },
   ],
 };
