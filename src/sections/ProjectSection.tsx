@@ -7,10 +7,9 @@ import portfolioT3ProjectPhoto from "./assets/projects/website.png";
 
 const content = {
   title: `My Projects`,
+  // Description can be added here.
   description: (
     <div>
-      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-      Velit officia consequat duis.
     </div>
   ),
   projects: [
@@ -18,21 +17,21 @@ const content = {
       photo: mandarinProjectPhoto,
       title: "Taipei.dev",
       description:
-        "Entertaining, Easy & Free way to learn real world Mandarin on the go! Learn to Read, Write & Speak Mandarin while watching shows",
+        "Entertaining, Easy & Free way to learn real world Mandarin on the go! Learn to Read, Write, and Speak Mandarin while watching shows.",
       url: "https://mandarin.marcincebula.com",
     },
     {
       photo: taipeiDevProjectPhoto,
       title: "Mandarin Learning App",
       description:
-        "Free Code & Design bootcamp. Learn Javascript, Typescript, ReactJS, NextJS, Figma, HTML, CSS and more every Wednesday here in Taipei, Taiwan",
+        "Free Code & Design bootcamp. Learn JavaScript, TypeScript, ReactJS, NextJS, Figma, HTML, CSS and more every Wednesday here in Taipei, Taiwan.",
       url: "https://taipei.dev",
     },
     {
       photo: portfolioT3ProjectPhoto,
       title: "Dev Portfolio Builder",
       description:
-        "Forkable, hightly customizable Dev Portfolio Builder with an assortment of components specifically designed for Devs in mind. It's powered by the T3 Stack and can be deployed anywhere but it was designed in mind to run on Vercel",
+        "Forkable, highly customizable Dev Portfolio Builder with an assortment of components specifically designed for devs in mind. It's powered by the T3 Stack and can be deployed anywhere but it was designed to run on Vercel.",
       url: "https://github.com/TaipeiDev/portfolio-t3",
     },
   ],
