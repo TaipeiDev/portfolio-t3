@@ -8,7 +8,7 @@ const content = {
     </span>
   ),
   description:
-    "It was a busy year. Lots of learning, lost of building and lost of real world lessons. Here are some of my stats for 2022...",
+    "It was a busy year. Lots of learning, lots of building, and lots of real world lessons. Here are some of my stats for 2022...",
   stats: [
     {
       number: 11,
@@ -22,7 +22,7 @@ const content = {
     },
     {
       number: 3,
-      label: "Micro-SasS",
+      label: "Micro-SaaS",
       description: "Created 3 Commercial Products",
     },
   ],
