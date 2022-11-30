@@ -68,7 +68,7 @@ export function TestimonialSection() {
               <blockquote className="mt-7">
                 <p className="text-lg text-black">
                   “I like Marcin more and more each day because he makes my
-                  life a lot easier. Thanks to Marcin, we've just launched our
+                  life a lot easier. Thanks to Marcin, we&apos;ve just launched our
                   5th website!”
                 </p>
               </blockquote>
@@ -103,7 +103,7 @@ export function TestimonialSection() {
               <blockquote className="mt-7">
                 <p className="text-lg text-black">
                   “If you want real marketing that works and effective
-                  implementation - Marcin's got you covered.
+                  implementation - Marcin&apos;s got you covered.
                   Since I invested in Marcin I made over 100,000 dogecoins.”
                 </p>
               </blockquote>
