@@ -12,7 +12,7 @@ import {
 } from "../components/Skills";
 
 const content = {
-  title: "I'm a Pro! Check out ma'skills!",
+  title: "I'm a Pro! Check out my skills!",
   description: null,
   // description: (
   //   <p>
@@ -33,7 +33,7 @@ const content = {
     nextJS: {
       love: 4.5,
       skill: 4.5,
-      description: `NextJS Made me fall in love with programming for the second time! I've been using it on every project ever since!`,
+      description: `NextJS made me fall in love with programming for the second time! I've been using it on every project since!`,
     },
     reactJS: {
       love: 4.5,
@@ -43,7 +43,7 @@ const content = {
     t3Stack: {
       love: 5,
       skill: 5,
-      description: "The only way to get started on a new project project in 2022!",
+      description: "The only way to get started on a new project in 2022!",
     },
     nodeJS: {
       love: 3.5,

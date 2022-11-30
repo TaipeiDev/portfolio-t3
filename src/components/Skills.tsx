@@ -21,11 +21,11 @@ export const T3StackSkill = (props: SkillProps) => (
   <SkillWidget {...props} title="T3 Stack" icon={<T3StackIcon />} />
 );
 export const TypeScriptSkill = (props: SkillProps) => (
-  <SkillWidget {...props} title="Typescript" icon={<TypeScriptIcon />} />
+  <SkillWidget {...props} title="TypeScript" icon={<TypeScriptIcon />} />
 );
 
 export const JavascriptSkill = (props: SkillProps) => (
-  <SkillWidget {...props} title="Javascript" icon={<JavaScriptIcon />} />
+  <SkillWidget {...props} title="JavaScript" icon={<JavaScriptIcon />} />
 );
 
 export const NextJSSkill = (props: SkillProps) => (
