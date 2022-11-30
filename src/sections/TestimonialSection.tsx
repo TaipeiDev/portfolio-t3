@@ -32,9 +32,9 @@ export function TestimonialSection() {
               </div>
               <blockquote className="mt-7">
                 <p className="text-lg text-black">
-                  “Amet minim mollit non deserunt ullam co est sit aliqua dolor
-                  do amet sint. Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat”
+                  “Really good. Wow what great service, I love it! Marcin
+                   should be nominated for developer of the year.
+                   Not able to tell you how happy I am with Marcin.”
                 </p>
               </blockquote>
               <p className="tex-tblack mt-9 text-base font-semibold">
@@ -67,9 +67,9 @@ export function TestimonialSection() {
               </div>
               <blockquote className="mt-7">
                 <p className="text-lg text-black">
-                  “Amet minim mollit non deserunt ullam co est sit aliqua dolor
-                  do amet sint. Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat”
+                  “I like Marcin more and more each day because he makes my
+                  life a lot easier. Thanks to Marcin, we&apos;ve just launched our
+                  5th website!”
                 </p>
               </blockquote>
               <p className="tex-tblack mt-9 text-base font-semibold">
@@ -102,9 +102,9 @@ export function TestimonialSection() {
               </div>
               <blockquote className="mt-7">
                 <p className="text-lg text-black">
-                  “Amet minim mollit non deserunt ullam co est sit aliqua dolor
-                  do amet sint. Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat”
+                  “If you want real marketing that works and effective
+                  implementation - Marcin&apos;s got you covered.
+                  Since I invested in Marcin I made over 100,000 dogecoins.”
                 </p>
               </blockquote>
               <p className="tex-tblack mt-9 text-base font-semibold">

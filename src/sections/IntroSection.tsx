@@ -5,7 +5,7 @@ import ProfilePhoto from "./assets/ProfilePhoto.png";
 import { ScrollDownIcon } from "../components/AnimatedIcons";
 
 const content = {
-  name: "Marcin @Taipei.dev",
+  name: "Marcin@Taipei.dev",
   profilePhoto: ProfilePhoto,
   title: "Full Stack Developer",
   cta: {
@@ -25,13 +25,13 @@ const content = {
   ),
   description: (
     <div className="font-light">
-      <span>{`I've`}</span> been <span className="font-semibold text-purple-500">coding</span>, <span className="font-semibold text-purple-500">designing </span> and  <span className="font-semibold text-purple-500">build </span>products for{" "}
-      <span className="font-semibold">over a decade</span>. I enjoying
+      <span>{`I've`}</span> been <span className="font-semibold text-purple-500">coding</span>, <span className="font-semibold text-purple-500">designing</span>, and  <span className="font-semibold text-purple-500">building </span>products for{" "}
+      <span className="font-semibold">over a decade</span>. I enjoy
       working in
       <span className="px-1  font-semibold text-pink-500">
-        Typescript based technologies
+        Typescript
       </span>
-      and contribute to Open Source on Github
+      and contribute to open source software on Github.
     </div>
   ),
 };
