@@ -10,7 +10,7 @@ export default function Document() {
         />
         <meta
           name="description"
-          content="I write awesome code! I've been coding, designing and build products for over a decade. I enjoying working in Typescript based technologies sand contribute to Open Source on Github"
+          content="I write awesome code! I've been coding, designing, and building products for over a decade. I enjoy working in Typescript and contribute to open source software on Github."
         />
         <meta
           name="keywords"
@@ -46,7 +46,7 @@ export default function Document() {
         <meta property="og:url" content="https://marcincebula.vercel.app/" />
         <meta
           property="og:description"
-          content="I write awesome code! I've been coding, designing and build products for over a decade. I enjoying working in Typescript based technologies sand contribute to Open Source on Github"
+          content="I write awesome code! I've been coding, designing, and building products for over a decade. I enjoy working in Typescript and contribute to open source software on Github."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -66,7 +66,7 @@ export default function Document() {
         <meta name="twitter:site" content="https://taipei.dev/" />
         <meta
           name="twitter:description"
-          content="I write awesome code! I've been coding, designing and build products for over a decade. I enjoying working in Typescript based technologies sand contribute to Open Source on Github"
+          content="I write awesome code! I've been coding, designing, and building products for over a decade. I enjoy working in Typescript and contribute to open source software on Github."
         />
         <meta
           name="twitter:title"
