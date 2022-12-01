@@ -5,6 +5,7 @@ Forkable, hightly customizable **Dev Portfolio Builder** with an assortment of c
 ## One Caveat: To install you need to run:
 ```sh
 npm install --legacy-peer-deps
+npm run dev
 # this resolves the lottie-react dependency issue
 ```
 
